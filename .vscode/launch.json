@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ReplaceNestedFor",
+      "request": "launch",
+      "mainClass": "ReplaceNestedFor"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - replaceNestedFor",
+      "request": "launch",
+      "mainClass": "replaceNestedFor"
+    }
+  ]
+}
