@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import sort.*;
 
 public class Main {
 	
@@ -7,9 +8,12 @@ public class Main {
 //		System.out.println("hello cmd java");
 //		String[] a = readAllStrings();
 		String[] a = {"S", "O", "R", "T", "E", "X", "A", "M", "P", "L", "E"};
-		Selection.sort(a);
-		assert Selection.isSorted(a);
-		Selection.show(a);
+//		Selection.sort(a);
+//		assert Selection.isSorted(a);
+//		Selection.show(a);
+		Insertion.sort(a);
+		assert Insertion.isSorted(a);
+		Insertion.show(a);
 	}
 	
 	private static String[] readAllStrings() {
