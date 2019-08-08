@@ -3,6 +3,15 @@
 ## 1. java input관련부분
 
 java에서 입력값을 받을 때, 숫자만 받을때는 `sc.nextInt()`만을 사용하면 띄어쓰기에도 문제없이 잘 받아진다(Picnic을 참고하길)
+만약 string을 받아야 한다면 `StringTokenizer`를 사용하여 처리하자.
+
+```java
+String str = "this is my string";
+StringTokenizer st = new StringTokenizer(str,"%%");
+while(st.hasMoreTokens()) {
+  System.out.println(st.nextToken());
+}
+```
 
 ## 2. java testcase file 처리
 
